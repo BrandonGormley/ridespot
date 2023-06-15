@@ -1,12 +1,12 @@
-<a href="https://ridespot.vercel.app/">
-  <img alt="Ride Spot" align="center" src="https://ridespot.vercel.app/banner.jpg">
+<a href="https://ride-spot.vercel.app/">
+  <img alt="Ride Spot" align="center" src="https://ride-spot.vercel.app/banner.jpg">
   <h1 align="center">RideSpot</h1>
 </a>
 
 <p align="center">RideSpot: Your go-to platform for renting the perfect wheels. Browse and choose from a wide range of cars for day-long adventures. Compare, book, and hit the road in style. Unleash your driving dreams with RideSpot.</p>
 <p align="center">*This is a project for testing/practice purposes  only.*</p>
 
-> Live Link (Alpha Stage) [_here_](https://ridespot.vercel.app/)
+> Live Link (Alpha Stage) [_here_](https://ride-spot.vercel.app/)
 
 ## Technologies Used
 
