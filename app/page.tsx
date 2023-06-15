@@ -1,3 +1,9 @@
+import { Hero } from '@/components';
+
 export default function Home() {
-    return <h1>Welcome</h1>;
+    return (
+        <main className='overflow-hidden'>
+            <Hero />
+        </main>
+    );
 }
