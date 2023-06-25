@@ -3,8 +3,7 @@ export async function fetchCars() {
         `https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?model=corolla`,
         {
             headers: {
-                'X-RapidAPI-Key':
-                    'd349c53f66msh6298f27e4556971p1b48afjsnf7580f090e24',
+                'X-RapidAPI-Key': `${process.env.NEXT_PUBLIC_API_KEY}`,
                 'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com',
             },
         }
