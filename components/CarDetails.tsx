@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Dialog, Transition } from '@headlessui/react';
 
 import { CarDetailsProps } from '@/types';
+import { generateCarImageUrl } from '@/utils';
 
 export default function CarDetails({
     isOpen,
@@ -54,35 +55,47 @@ export default function CarDetails({
                                     <div className='flex-1 flex flex-col gap-3'>
                                         <div className='relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg'>
                                             <Image
-                                                src={'/hero.png'}
-                                                alt='car moel'
+                                                src={generateCarImageUrl(
+                                                    car,
+                                                    'angle'
+                                                )}
+                                                alt='car model'
                                                 fill
                                                 priority
                                                 className='object-contain'
                                             />
                                         </div>
                                         <div className='flex gap-3'>
-                                            <div className='flex-1 relative w-full h-24 rounded-lg bg-white'>
+                                            <div className='flex-1 relative w-full h-24 rounded-lg bg-gray-50'>
                                                 <Image
-                                                    src={'/hero.png'}
+                                                    src={generateCarImageUrl(
+                                                        car,
+                                                        '29'
+                                                    )}
                                                     alt='car moel'
                                                     fill
                                                     priority
                                                     className='object-contain'
                                                 />
                                             </div>
-                                            <div className='flex-1 relative w-full h-24 rounded-lg bg-white'>
+                                            <div className='flex-1 relative w-full h-24 rounded-lg bg-gray-50'>
                                                 <Image
-                                                    src={'/hero.png'}
+                                                    src={generateCarImageUrl(
+                                                        car,
+                                                        '33'
+                                                    )}
                                                     alt='car moel'
                                                     fill
                                                     priority
                                                     className='object-contain'
                                                 />
                                             </div>
-                                            <div className='flex-1 relative w-full h-24 rounded-lg bg-white'>
+                                            <div className='flex-1 relative w-full h-24 rounded-lg bg-gray-50'>
                                                 <Image
-                                                    src={'/hero.png'}
+                                                    src={generateCarImageUrl(
+                                                        car,
+                                                        '13'
+                                                    )}
                                                     alt='car moel'
                                                     fill
                                                     priority
