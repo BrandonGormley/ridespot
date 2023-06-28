@@ -17,7 +17,7 @@ export default function Hero() {
                 </p>
                 <CustomButton
                     title='Explore Cars'
-                    containerStyles='bg-[#09bc8a] text-white rounded-full mt-10'
+                    containerStyles='bg-primary text-white rounded-full mt-10'
                     handleClick={handleScroll}
                 />
             </div>

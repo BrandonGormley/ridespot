@@ -56,7 +56,7 @@ export default function SearchManufacturer({
                                     className={({ active }) =>
                                         `relative search-manufacturer__option ${
                                             active
-                                                ? 'bg-[#09bc8a] text-white rounded-full hover:cursor-pointer'
+                                                ? 'bg-primary text-white rounded-full hover:cursor-pointer'
                                                 : 'text-gray-900'
                                         }`
                                     }
@@ -77,7 +77,7 @@ export default function SearchManufacturer({
                                                     className={`absolute inset-y-0 left-0 flex items-center pl-3 ${
                                                         active
                                                             ? 'text-white'
-                                                            : 'text-teal-600'
+                                                            : 'text-primary'
                                                     }`}
                                                 ></span>
                                             ) : null}

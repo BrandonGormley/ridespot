@@ -76,7 +76,7 @@ export default function CarCard({ car }: CarCardProps) {
                 <div className='car-card__btn-container'>
                     <CustomButton
                         title='View More'
-                        containerStyles='w-full py-16  rounded-full bg-[#09bc8a]'
+                        containerStyles='w-full py-16 rounded-full bg-primary'
                         textStyles='text-white text-[14px] leading-[17px] font-bold'
                         rightIcon='/right-arrow.svg'
                         handleClick={() => setIsOpen(true)}
